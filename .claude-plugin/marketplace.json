@@ -17,7 +17,7 @@
     {
       "name": "skill-forge",
       "source": {
-        "type": "github",
+        "source": "github",
         "repo": "VAMFI/skill-forge"
       },
       "description": "Autonomously create research-grounded, high-quality Claude Code skills by fetching official documentation before generation. Never hallucinate - every fact is verified and cited.",
