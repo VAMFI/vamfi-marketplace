@@ -1,0 +1,42 @@
+{
+  "name": "vamfi-plugins",
+  "owner": {
+    "name": "VAMFI",
+    "email": "amba@vamfi.com",
+    "url": "https://github.com/VAMFI"
+  },
+  "metadata": {
+    "description": "VAMFI Plugin Marketplace - High-quality, research-grounded Claude Code plugins",
+    "version": "1.0.0",
+    "homepage": "https://github.com/VAMFI/vamfi-marketplace",
+    "pluginRoot": "./plugins",
+    "totalPlugins": 1,
+    "lastUpdated": "2025-12-08"
+  },
+  "plugins": [
+    {
+      "name": "skill-forge",
+      "source": {
+        "type": "github",
+        "repo": "VAMFI/skill-forge"
+      },
+      "description": "Autonomously create research-grounded, high-quality Claude Code skills by fetching official documentation before generation. Never hallucinate - every fact is verified and cited.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": [
+        "skills",
+        "automation",
+        "research",
+        "documentation",
+        "meta-development",
+        "skill-creator"
+      ],
+      "author": {
+        "name": "VAMFI",
+        "email": "amba@vamfi.com"
+      },
+      "repository": "https://github.com/VAMFI/skill-forge",
+      "license": "MIT"
+    }
+  ]
+}
